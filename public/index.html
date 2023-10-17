@@ -17,56 +17,75 @@
             <form class="flex flex-col gap-6">
               <div class="flex flex-col">
                 <label class="text-sm font-medium" for="name">Name</label>
-                <input class="border rounded-[.625rem] border-input_color p-[.5rem] placeholder:text-xs placeholder:font-medium placeholder:text-input_color" type="text" placeholder="Enter your name" />
+                <input
+                id="name"
+                  class="border rounded-[.625rem] border-input_color p-[.5rem] placeholder:text-xs placeholder:font-medium placeholder:text-input_color"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                />
               </div>
               <div class="flex flex-col">
-                <label class="text-sm font-medium" for="">Email address</label>
-                <input class="border rounded-[.625rem] border-input_color p-[.5rem] placeholder:text-xs placeholder:font-medium placeholder:text-input_color"
+                <label  class="text-sm font-medium" for="email">Email address</label>
+                <input
+                  class="border rounded-[.625rem] border-input_color p-[.5rem] placeholder:text-xs placeholder:font-medium placeholder:text-input_color"
                   type="email"
-                  name=""
-                  id=""
+                  name="email"
+                  id="email"
                   placeholder="Enter your email"
                 />
               </div>
               <div class="flex flex-col">
-                <label class="text-sm font-medium" for=""
-                  >Password
-                </label>
-                <input class="border rounded-[.625rem] border-input_color p-[.5rem] placeholder:text-xs placeholder:font-medium placeholder:text-input_color" placeholder="*********" type="password" name="" id="" />
+                <label class="text-sm font-medium" for="password">Password </label>
+                <input
+                  class="border rounded-[.625rem] border-input_color p-[.5rem] placeholder:text-xs placeholder:font-medium placeholder:text-input_color"
+                  placeholder="*********"
+                  type="password"
+                  name="password"
+                  id="password"
+                />
               </div>
               <div>
-                <input type="checkbox" name="" id="" />
-                <label for=""
+                <input type="checkbox" name="check" id="check" />
+                <label for="check"
                   >I agree to the
-                  <a class="inline" href="#">terms & policy</a></label
+                  <a class="inline-block underline" href="#">terms & policy</a></label
                 >
               </div>
-              <a class="inline-block bg-dark_green font-bold text-sm py-2 text-center rounded-[.625rem] text-white" href="#">Signup</a>
+              <a
+                class="inline-block bg-dark_green font-bold text-sm py-2 text-center rounded-[.625rem] text-white"
+                href="#"
+                >Signup</a
+              >
             </form>
             <!-- Or / line-through -->
-            <div class="flex items-center gap-1 my-[3.75rem]">
+            <div class="flex items-center gap-2 my-[3.75rem]">
               <div class="bg-line_bg h-[2px] w-full"></div>
               <p class="text-black text-xs font-medium">Or</p>
               <div class="bg-line_bg h-[2px] w-full"></div>
             </div>
             <!-- other way to sign in -->
             <div class="flex items-center gap-6 mb-6">
-              <a class="flex gap-[.625rem] items-center py-1 px-5 rounded-[.625rem] text-xs font-medium border border-[#d9d9d9]" href="#">
-                   <img src="/asset/google.svg" alt="">
-                   <p>
-                    Sign in with Google
-                   </p>
+              <a
+                class="flex gap-[.625rem] items-center py-1 px-5 rounded-[.625rem] text-xs font-medium border border-[#d9d9d9]"
+                href="#"
+              >
+                <img src="/asset/google.svg" alt="" />
+                <p>Sign in with Google</p>
               </a>
-              <a class="flex gap-[.625rem] items-center py-1 px-5 rounded-[.625rem] text-xs font-medium border border-[#d9d9d9]" href="#">
-                    <img src="/asset/apple.svg" alt="">
-                    <p>
-                      Sign in with Apple
-                    </p>
+              <a
+                class="flex gap-[.625rem] items-center py-1 px-5 rounded-[.625rem] text-xs font-medium border border-[#d9d9d9]"
+                href="#"
+              >
+                <img src="/asset/apple.svg" alt="" />
+                <p>Sign in with Apple</p>
               </a>
             </div>
 
-            <p class="text-center text-sm font-medium">Have an account?  <a class="inline-block text-bright_blue" href="#">Sign In</a></p>
-
+            <p class="text-center text-sm font-medium">
+              Have an account?
+              <a  class="inline-block text-bright_blue" href="#">Sign In</a>
+            </p>
           </div>
         </div>
         <div class="flex-1 bg-black bg-hero"></div>
